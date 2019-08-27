@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Tue Aug 27 10:16:28 2019
 
@@ -61,7 +60,8 @@ print('\nThe dictionary we are using looks like this: \n')
 print(dictionary)
 
 df_fromDict = pd.DataFrame(dictionary)
-print('\nA dataframe can become a dictionary by writing df.to_dict(). The dataframe will look like this using pd.DataFrame(dictionary): \n')
+print('\nA dataframe can become a dictionary by writing df.to_dict(). \
+The dataframe will look like this using pd.DataFrame(dictionary): \n')
 print(tabulate(df_fromDict, headers = 'keys', showindex = False)) #use the keys for the headers
 
 
@@ -92,9 +92,11 @@ print ('\nMethod 4: SQL query input')
 
 print('\nWrite the query and assign it to a name then read the query and place it into a \
 table. No output will be printed for this method so please refer to the code only.')
-query = '''SELECT * FROM DB.TABLE_A;'''
-table = pd.read_sql_query(query, conn) #make sure to set up your connection to a database first
-df = pd.DataFrame(table) 
+#commenting so the script will run OK without the SQL portion
+#query = '''SELECT * FROM DB.TABLE_A;'''
+#table = pd.read_sql_query(query, conn) #make sure to set up your connection to a database first
+#df = pd.DataFrame(table) 
+
 
 
     
