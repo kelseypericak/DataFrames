@@ -88,6 +88,7 @@ print('\nThe dataframe will look like this using pd.DataFrame(list(zipped_list))
 print(tabulate(df_fromUnionZip, headers, showindex = False)) 
 
 
+
 ##Method 4: SQL
 
 print ('\nMethod 4: SQL query input')
