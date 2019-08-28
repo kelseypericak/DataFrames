@@ -85,7 +85,7 @@ headers = ['Name', 'Price', 'Type', 'Item', 'ColourOptions']
 
 print('\nThe dataframe will look like this using pd.DataFrame(list(zipped_list)) after\
  manipulating the data structure: \n')
-print(tabulate(df_fromUnionZip, headers, showindex = False)) #Print the table using tabulate
+print(tabulate(df_fromUnionZip, headers, showindex = False)) 
 
 
 ##Method 4: SQL
