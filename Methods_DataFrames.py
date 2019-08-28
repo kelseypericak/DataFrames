@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 """
-Created on Tue Aug 27 10:16:28 2019
 
 @author: kpericak
 
