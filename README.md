@@ -18,4 +18,4 @@ I used a small sample of data mined from the Sephora Canada website to create th
 
 Pandas and Tabulate are imported. Tabulate is not necessary but it "pretty" presents for a nicer appearance.
 
--kevic
+-kevicc
